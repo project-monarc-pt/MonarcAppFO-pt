@@ -106,10 +106,6 @@ log "Step 4 — running core Phinx migrations …"
 php vendor/robmorgan/phinx/bin/phinx migrate -c vendor/monarc/core/migrations/phinx.php
 log "  → done."
 
-# ── Step 5: Portuguese translations (translations table) ─────────────────────
-log "Step 5 — applying db-bootstrap/translations_pt.sql …"
-$MYSQL "$DB_COMMON" < db-bootstrap/translations_pt.sql
-log "  → done."
 
 # ── Step 6: Portuguese label translations (label1 columns) ───────────────────
 log "Step 6 — applying INSTALL-PT Portuguese label SQL files …"
