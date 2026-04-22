@@ -24,7 +24,7 @@ UPDATE `measures` SET `label1` = 'Capacidade de Armazenamento de Auditoria', `la
 UPDATE `measures` SET `label1` = 'Honeypots', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Honeypots';
 UPDATE `measures` SET `label1` = 'Reautenticação', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Re-authentication';
 UPDATE `measures` SET `label1` = 'Os utilizadores privilegiados compreendem os seus papéis e responsabilidades', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Privileged users understand roles & responsibilities';
-UPDATE `measures` SET `label1` = 'O posicionamento da organização na infraestrutura crítica e no seu setor industrial é identificado e comunicado', `label3` = NULL, `label4` = NULL WHERE `label2` = 'The organization''s place in critical infrastructure and its industry sector is identified and communicated';
+UPDATE `measures` SET `label1` = 'O posicionamento da organização nas infraestruturas críticas e no seu setor de atividade é identificado e comunicado', `label3` = NULL, `label4` = NULL WHERE `label2` = 'The organization''s place in critical infrastructure and its industry sector is identified and communicated';
 UPDATE `measures` SET `label1` = 'Proteção contra Danos Causados pela Água', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Water Damage Protection';
 UPDATE `measures` SET `label1` = 'Formação Baseada em Funções', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Role-Based Training';
 UPDATE `measures` SET `label1` = 'Serviços de Sistemas Externos', `label3` = NULL, `label4` = NULL WHERE `label2` = 'External System Services';
@@ -43,7 +43,7 @@ UPDATE `measures` SET `label1` = 'Política e Procedimentos de Gestão de Config
 UPDATE `measures` SET `label1` = 'Reporte de Incidentes', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Incident Reporting';
 UPDATE `measures` SET `label1` = 'Os eventos detetados são analisados para compreender os alvos e métodos de ataque', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Detected events are analyzed to understand attack targets and methods';
 UPDATE `measures` SET `label1` = 'Desenvolvimento Personalizado de Componentes Críticos', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Customized Development of Critical Components';
-UPDATE `measures` SET `label1` = 'Privacidade e proteção de DCP', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Privacy and protection of PII';
+UPDATE `measures` SET `label1` = 'Privacidade e proteção de Dados Pessoais Identificáveis', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Privacy and protection of PII';
 UPDATE `measures` SET `label1` = 'Redundância das instalações de processamento de informação', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Redundancy of information processing facilities';
 UPDATE `measures` SET `label1` = 'As redes de comunicações e de controlo estão protegidas', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Communications and control networks are protected';
 UPDATE `measures` SET `label1` = 'Direitos de acesso', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Access rights';
@@ -55,7 +55,7 @@ UPDATE `measures` SET `label1` = 'Energia de Emergência', `label3` = NULL, `lab
 UPDATE `measures` SET `label1` = 'A manutenção e reparação de ativos organizacionais é realizada e registada em tempo útil, com ferramentas aprovadas e controladas', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Maintenance and repair of organizational assets is performed and logged in a timely manner, with approved and controlled tools';
 UPDATE `measures` SET `label1` = 'Registos de atividade (logging)', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Logging';
 UPDATE `measures` SET `label1` = 'Segregação de funções', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Segregation of duties';
-UPDATE `measures` SET `label1` = 'Nós Thin', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Thin Nodes';
+UPDATE `measures` SET `label1` = 'Thin Nodes', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Thin Nodes';
 UPDATE `measures` SET `label1` = 'Gestão de configuração', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Configuration management';
 UPDATE `measures` SET `label1` = 'Existem processos de controlo de alterações de configuração', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Configuration change control processes are in place';
 UPDATE `measures` SET `label1` = 'Código Móvel', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Mobile Code';
@@ -133,7 +133,7 @@ UPDATE `measures` SET `label1` = 'Responsabilidades da gestão', `label3` = NULL
 UPDATE `measures` SET `label1` = 'Utilização aceitável da informação e de outros ativos associados', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Acceptable use of information and other associated assets';
 UPDATE `measures` SET `label1` = 'Arquitetura e Design de Segurança pelo Desenvolvedor', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Developer Security Architecture and Design';
 UPDATE `measures` SET `label1` = 'Política e Procedimentos de Integridade do Sistema e da Informação', `label3` = NULL, `label4` = NULL WHERE `label2` = 'System and Information Integrity Policy and Procedures';
-UPDATE `measures` SET `label1` = 'A determinação da tolerância ao risco da organização é fundamentada pelo seu papel na infraestrutura crítica e pela análise de risco específica do setor', `label3` = NULL, `label4` = NULL WHERE `label2` = 'The organization''s determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis';
+UPDATE `measures` SET `label1` = 'A determinação da tolerância ao risco da organização é informada pelo seu papel nas infraestruturas críticas e pela análise de risco específica do setor', `label3` = NULL, `label4` = NULL WHERE `label2` = 'The organization''s determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis';
 UPDATE `measures` SET `label1` = 'Os executivos seniores compreendem os seus papéis e responsabilidades', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Senior executives understand roles & responsibilities';
 UPDATE `measures` SET `label1` = 'As respostas ao risco são identificadas e priorizadas', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Risk responses are identified and prioritized';
 UPDATE `measures` SET `label1` = 'Corte de Emergência', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Emergency Shutoff';

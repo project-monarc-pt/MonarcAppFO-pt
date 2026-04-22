@@ -169,7 +169,7 @@ UPDATE `vulnerabilities` SET `label1` = 'Palavra-passe de acesso ao software de 
 UPDATE `vulnerabilities` SET `label1` = 'Software de utilização complexa', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Software that is complex to use';
 UPDATE `vulnerabilities` SET `label1` = 'Regras de instalação não tidas em conta', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Installation rules not taken into account';
 UPDATE `vulnerabilities` SET `label1` = 'Sem armazenamento de rastros de processamento', `label3` = NULL, `label4` = NULL WHERE `label2` = 'No storage of processing tracks';
-UPDATE `vulnerabilities` SET `label1` = 'Zonamento de equipamentos não tido em conta', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Equipment zoning not taken into account';
+UPDATE `vulnerabilities` SET `label1` = 'Zoneamento de equipamentos não tido em conta', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Equipment zoning not taken into account';
 UPDATE `vulnerabilities` SET `label1` = 'Equipamento capaz de emitir radiação parasita comprometedora', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Equipment capable of emitting compromising stray radiation';
 UPDATE `vulnerabilities` SET `label1` = 'Sem proteção contra perturbações elétricas', `label3` = NULL, `label4` = NULL WHERE `label2` = 'No protection against electrical disturbances';
 UPDATE `vulnerabilities` SET `label1` = 'Condições de funcionamento incorretas', `label3` = NULL, `label4` = NULL WHERE `label2` = 'Incorrect operating conditions';
