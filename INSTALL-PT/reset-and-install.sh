@@ -107,28 +107,4 @@ php vendor/robmorgan/phinx/bin/phinx migrate -c vendor/monarc/core/migrations/ph
 log "  → done."
 
 
-# ── Step 6: Portuguese label translations (label1 columns) ───────────────────
-log "Step 6 — applying INSTALL-PT Portuguese label SQL files …"
-for f in \
-    INSTALL-PT/pt_01_small_tables.sql \
-    INSTALL-PT/pt_02_rolf_soa.sql \
-    INSTALL-PT/pt_03_measures_a.sql \
-    INSTALL-PT/pt_03_measures_b.sql \
-    INSTALL-PT/pt_03_measures_c.sql \
-    INSTALL-PT/pt_04_vulnerabilities_a.sql \
-    INSTALL-PT/pt_04_vulnerabilities_b.sql \
-    INSTALL-PT/pt_04_vulnerabilities_c.sql \
-    INSTALL-PT/pt_05_assets_objects.sql \
-    INSTALL-PT/pt_06_threats_desc.sql \
-    INSTALL-PT/pt_07_vuln_desc.sql \
-    INSTALL-PT/pt_08_rolf_desc.sql \
-    INSTALL-PT/pt_09_scales_comments.sql \
-    INSTALL-PT/pt_10_objects_label_models.sql \
-    INSTALL-PT/pt_11_measures_fixup.sql \
-    INSTALL-PT/pt_12_translations.sql; do
-    log "  applying $f …"
-    $MYSQL "$DB_COMMON" < "$f"
-done
-log "  → done."
-
 log "All steps completed successfully."
