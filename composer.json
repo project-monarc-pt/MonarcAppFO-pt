@@ -62,7 +62,8 @@
         "doctrine/orm": "^2.20",
         "doctrine/dbal": "^3.10",
         "guzzlehttp/guzzle": "^6.5",
-        "robmorgan/phinx": "^0.13"
+        "robmorgan/phinx": "^0.13",
+        "ramsey/uuid": "^4.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
