@@ -56,7 +56,13 @@
         "laminas/laminas-mvc-middleware": "^2.2",
         "robthree/twofactorauth": "^1.8",
         "endroid/qr-code": "^4.4",
-        "laminas/laminas-captcha": "^2.18"
+        "laminas/laminas-captcha": "^2.18",
+        "laminas/laminas-inputfilter": "^2.33",
+        "laminas/laminas-servicemanager": "^3.23",
+        "doctrine/orm": "^2.20",
+        "doctrine/dbal": "^3.10",
+        "guzzlehttp/guzzle": "^6.5",
+        "robmorgan/phinx": "^0.13"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
